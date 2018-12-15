@@ -21,6 +21,6 @@ This repository contains code for generating stories with your own images, as we
 
 
 This project was done as a submission for our final project for Business Data Science course  (in MS in IT & Management) @ McCombs School of Business - University of Texas as Austin.
-It was a team effort with other 2 members - Mouhamed Ndoye (@ https://github.com/mhmdndoye) & Anuja Srivastava
+It was a team effort with other 2 members - Mouhamed Ndoye (@ https://github.com/mhmdndoye) & Anuja Srivastava (@ https://github.com/anuja1011)
 
 More details on how this project was implemented etc is written as a blog post available here : 
