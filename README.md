@@ -13,7 +13,12 @@ This repository contains code for generating stories with your own images, as we
    
 ### Some minor details:
 1) The project has lot of other dependencies like Theano, Tensorflow, Keras etc. To run this project, you will need all these dependencies resolved.
-2) The training of the model on fairytales was done on a Google Cloud Instance (set up with a deep learning instance image) with 1 GPU.
+2) For Theano the default float type is set to 'float64'. This may create conflicts while working with Tensorflow & Keras. As per the general suggestion for deep learning models go, you must convert the default type for Theano to float32 to avoid such cross compatibility issues. 
+    Use ----->   theano.config.floatX = 'float32' 
+3) The training of the model on fairytales was done on a Google Cloud Instance (set up with a deep learning instance image) with 1 GPU.
+4) To collect the training data, stories were downloaded from multiple open source websites, or even scraped if publicly available. Collecting data from multiple sources meant lot of data cleaning, and bringing sentences to same encoding that should match the original project.
+5) Make sure your data is clean and is free from empty lines. If your training data has empty lines, weird & brain wracking errors will be thrown while training your own model - which are hard to debug.
+
 
 This project was done as a submission for our final project for Business Data Science course  (in MS in IT & Management) @ McCombs School of Business - University of Texas as Austin.
 It was a team effort with other 2 members - Mouhamed Ndoye (@ https://github.com/mhmdndoye) & Anuja Srivastava
