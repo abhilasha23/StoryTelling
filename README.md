@@ -16,6 +16,6 @@ This repository contains code for generating stories with your own images, as we
 2) The training of the model on fairytales was done on a Google Cloud Instance (set up with a deep learning instance image) with 1 GPU.
 
 This project was done as a submission for our final project for Business Data Science course  (in MS in IT & Management) @ McCombs School of Business - University of Texas as Austin.
-It was a team effort with other 2 members - Mouhamed Ndoye & Anuja Srivastava
+It was a team effort with other 2 members - Mouhamed Ndoye (@ https://github.com/mhmdndoye) & Anuja Srivastava
 
 More details on how this project was implemented etc is written as a blog post available here : 
